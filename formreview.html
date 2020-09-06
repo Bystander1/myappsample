@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form review</title>
+</head>
+<body>
+<h1>Registration Form</h1>
+
+<form action="https://www.wikipedia.com">
+	
+	<label>First Name: <input type="text" name="first" placeholder="firstname" pattern=".{5,10}" required></label>
+	<p></p>
+	<label for="lastname">Last Name: </label>
+	<input id="lastname" type="text" name="last">
+	<p></p>
+
+	<label for="dog">Dogs</label>
+	<input id="dog" type="radio" name="pet" value="dog">
+	<p></p>
+	<label for="email">Email: </label>
+	<input id="email" type="Email" name="email" required>	
+
+	<label for="password">Password: </label>
+	<input id="password" type="password" name="password" required title="5-10 char">	
+	<p></p>
+	<label for="text">cover letter: </label>
+	<textarea rows="20" cols="20" placeholder="cover"></textarea>
+	<p></p>
+
+
+	<label>Birthday: </label>
+	<select name="month">
+		<option>Month</option>
+		<option value="1">Jan</option>
+		<option>Feb</option>
+	</select>
+
+	<select name="day">
+		<option>Day</option>
+		<option>1</option>
+		<option>2</option>
+	</select>
+
+	<select>
+		<option>Year</option>
+		<option>1</option>
+		<option>2</option>
+	</select>
+ 
+<label for="term">I agree </label>
+<input id="term" type="checkbox" name="dog" value="1">
+<input id="term" type="checkbox" name="cat" value="2">
+<p></p>
+
+	<button>Submit</button>
+</form>
+
+
+</body>
+</html>
