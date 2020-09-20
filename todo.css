@@ -1,0 +1,15 @@
+body	{
+	background: lightyellow;
+}
+
+li 		{
+	border: 2px red dashed;
+}
+
+#special{
+	color: red;
+}
+
+.completed	{
+	text-decoration: line-through;
+}

@@ -1,5 +1,9 @@
 h1	{
 	color: #DA70D6;
+	/*border-color: green;
+	border-width: 5px;
+	border-style: dashed;*/
+	border: 2px solid rgb(255,255,80);
 }
 
 h4	{
@@ -9,4 +13,11 @@ h4	{
 li	{
 	color: black;
 	background: rgb(255,228,181);
+}
+
+body	{
+	background: lightgray;
+	/*background-repeat: no-repeat;
+	background: url(https://livewallpaperhd.com/wp-content/uploads/2019/08/Aurora-Background-Wallpaper-HD.jpg);
+	background-size: cover;*/
 }
