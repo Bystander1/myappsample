@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>assignment4 review</title>
+</head>
+<body>
+<h1>Create Account</h1>
+
+<form action="https://www.wikipedia.com">
+	<label>firstname?<input type="text" name="first" placeholder="bob"></label>
+	<label>lastname?<input type="text" name="last" placeholder="marley"></label>
+
+	<div>
+		<label>male <input type="radio" value="m" name="gender"></label>
+		<label>female <input type="radio" value="f" name="gender"></label>
+		<label>undefined <input type="radio" value="u" name="gender"></label>
+	</div>
+	<div>
+		<label>email? <input type="email" name="email" placeholder="email"></label>
+		<label>pass? <input type="password" name="pass" placeholder="pass" pattern=".{5,10}" title="5-10 characters" required></label>
+	</div>
+	<div>
+		<label>birthday?
+			<select name="Month">
+				<option>month</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+			</select>
+			<select name="Day">
+				<option>day</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+			</select>
+			<select name="Year">
+				<option>year</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+			</select>
+		</label>
+	</div>
+	<div>
+		<label>you agree to the term? <input type="checkbox" name="term" value="yes"></label>
+	</div>
+	<button>submit</button>
+</form>
+</body>
+</html>
